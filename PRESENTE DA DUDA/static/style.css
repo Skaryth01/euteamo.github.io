@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+#photo-gallery {
+    padding: 20px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#message-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#messages-display {
+    padding: 20px;
+}
+
+#messages-list {
+    margin-top: 10px;
+}
